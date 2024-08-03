@@ -1,0 +1,33 @@
+/*--------helper css------ */
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+li,ul,a {
+	display: inline-block;	
+}
+
+/* [class ^= 'col-']{
+    float: left;
+	display: inline-block;
+} */
+
+.col-7{
+	width: calc(7 * 100% / 12);
+}
+
+.col-5{
+	width: calc(5 * 100% / 12);
+}
+
+.col-3{
+	width: calc(3 * 100% / 12);
+}
+img{
+	display: inline-block;
+}
